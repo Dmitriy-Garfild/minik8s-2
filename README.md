@@ -48,6 +48,7 @@
     namespace: netology
     ...
     ```
+    </details>
 
 1. [deployment.yaml](deployment.yaml)
 
@@ -249,6 +250,8 @@
     namespace: netology-2
     ...
     ```
+
+    </details>
 
 
 1. [deployment2.yaml](deployment2.yaml)
