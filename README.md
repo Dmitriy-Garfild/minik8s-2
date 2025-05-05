@@ -37,7 +37,7 @@
 
 [ns.yaml](ns.yaml)
     
-
+    <details><summary>deployment.yaml</summary>
     ```yaml
     ---
     apiVersion: v1
@@ -237,7 +237,8 @@
 
 [ns2.yaml](ns2.yaml)
     
-
+    <details><summary>deployment.yaml</summary>
+    
     ```yaml
     ---
     apiVersion: v1
