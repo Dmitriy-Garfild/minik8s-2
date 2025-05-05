@@ -36,7 +36,7 @@
 для начала создадим namespase netoligy
 
 [ns.yaml](ns.yaml)
-    
+
     <details><summary>deployment.yaml</summary>
 
     ```yaml
@@ -48,6 +48,7 @@
     namespace: netology
     ...
     ```
+
     </details>
 
 1. [deployment.yaml](deployment.yaml)
