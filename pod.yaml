@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-multitool
+  labels:
+    app: multitool
+    comment: testig-app
+    company: netology
+    stage: study
+  namespace: netology
+spec:
+  containers:
+    - name: multitool
+      image: praqma/network-multitool:alpine-extra
+      resources:
+        limits:
+          memory: "128Mi"
+          cpu: "600m"
+        requests:
+          memory: "32Mi"
+          cpu: "100m"
+      ports:
+        - name: "http"
+          containerPort: 8082
+        - name: "https"
+          containerPort: 8444
+...
