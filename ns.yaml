@@ -4,3 +4,4 @@ kind: Namespace
 metadata:
   name: netology
   namespace: netology
+...
