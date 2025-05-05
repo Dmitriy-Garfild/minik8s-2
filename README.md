@@ -37,7 +37,7 @@
 
 [ns.yaml](ns.yaml)
 
-    <details><summary>deployment.yaml</summary>
+    <details><summary>ns.yaml</summary>
 
     ```yaml
     ---
@@ -240,7 +240,7 @@
 
 [ns2.yaml](ns2.yaml)
     
-    <details><summary>deployment.yaml</summary>
+    <details><summary>ns.yaml</summary>
 
     ```yaml
     ---
