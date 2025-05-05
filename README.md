@@ -36,7 +36,9 @@
 для начала создадим namespase netoligy
 
 [ns.yaml](ns.yaml)
+    
 
+    ```yaml
     ---
     apiVersion: v1
     kind: Namespace
@@ -46,13 +48,11 @@
     ...
     ```
 
-
-
 1. [deployment.yaml](deployment.yaml)
 
+    <details><summary>deployment.yaml</summary>
 
-
-
+    ```yaml
     ---
     apiVersion: apps/v1
     kind: Deployment
@@ -143,7 +143,7 @@
     ...
     ```
 
-
+    </details>
 
 
 3. одна реплика
@@ -156,8 +156,9 @@
 
 4. [service.yaml](service.yaml)
 
+    <details><summary>service.yaml</summary>
 
-
+    ```yaml
     ---
     apiVersion: v1
     kind: Service
@@ -181,10 +182,13 @@
     ...
     ```
 
-
+    </details>
 
 5. [pod.yaml](pod.yaml)
 
+    <details><summary>pod.yaml</summary>
+
+    ```yaml
     ---
     apiVersion: v1
     kind: Pod
@@ -215,7 +219,7 @@
     ...
     ```
 
-
+    </details>
 
     ![Скриншот 3](image_3.JPG)
 ------
@@ -234,6 +238,7 @@
 [ns2.yaml](ns2.yaml)
     
 
+    ```yaml
     ---
     apiVersion: v1
     kind: Namespace
@@ -244,11 +249,11 @@
     ```
 
 
-
-
 1. [deployment2.yaml](deployment2.yaml)
 
+    <details><summary>deployment2.yaml</summary>
 
+    ```yaml
     ---
     apiVersion: apps/v1
     kind: Deployment
@@ -319,11 +324,14 @@
     ...
     ```
 
+    </details>
 
 
 3. [service2.yaml](service2.yaml)
 
+    <details><summary>service2.yaml</summary>
 
+    ```yaml
     ---
     apiVersion: v1
     kind: Service
@@ -341,12 +349,12 @@
     ...
     ```
 
+    </details>
 
 
+4. ![Скриншот 4](image_4.jpg)
 
-4.
- ![Скриншот 4](image_4.JPG)
-
+------
 
 ### Правила приема работы
 
