@@ -326,7 +326,7 @@
 
     </details>
 
-2. *check*
+
 3. [service2.yaml](service2.yaml)
 
     <details><summary>service2.yaml</summary>
@@ -353,7 +353,7 @@
 
 
 4.
-   ![Скриншот 4](image_4.jpg)
+ ![Скриншот 4](image_4.jpg)
 
 
 ### Правила приема работы
