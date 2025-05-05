@@ -38,7 +38,7 @@
 [ns.yaml](ns.yaml)
     
     <details><summary>ns.yaml</summary>
-    
+
     ```yaml
     ---
     apiVersion: v1
@@ -48,6 +48,7 @@
     namespace: netology
     ...
     ```
+
     </details>
 
 1. [deployment.yaml](deployment.yaml)
